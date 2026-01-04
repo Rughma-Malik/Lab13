@@ -1,0 +1,15 @@
+# Terraform System Files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# Sensitive Variables
+*.tfvars
+
+# Scripts with passwords
+create-login-profile.sh
+
+# AWS Config (just in case)
+.aws/
+aws/
